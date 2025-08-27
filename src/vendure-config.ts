@@ -20,7 +20,7 @@ export const config: VendureConfig = {
         port: serverPort,
         adminApiPath: 'admin-api',
         shopApiPath: 'shop-api',
-        trustProxy: true,
+        trustProxy: 1,
         // The following options are useful in development mode,
         // but are best turned off for production for security
         // reasons.
