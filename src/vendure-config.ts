@@ -92,7 +92,8 @@ export const config: VendureConfig = {
             route: 'admin',
             port: serverPort + 2,
             adminUiConfig: {
-                apiPort: serverPort,
+                apiHost: 'https://vendure-backend-68h6.onrender.com',
+        apiPort: 443, // porque es HTTPS
             },
         }),
     ],
